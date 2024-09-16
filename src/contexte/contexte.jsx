@@ -22,6 +22,8 @@ export const EasyProvider = ({ children }) => {
     setLeaders(leaders);
   }
 
+
+  
   return (
     <EasyContext.Provider
       value={{ tries, setTries, isEasyMode, setIsEasyMode, leadrs, setLeaders, checkedLevel, setCheckedLevel }}
